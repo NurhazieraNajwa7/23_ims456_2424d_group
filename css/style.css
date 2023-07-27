@@ -1,0 +1,354 @@
+body
+{
+    background-color:rgb(246, 176, 194);
+}
+
+.center {
+    text-align: center;
+  }
+h1
+{
+    color:black;
+    font-size: 30pt;   
+
+
+
+}
+a
+{
+    text-decoration: none;
+    font-family: Impact;
+    padding: 20px;
+    font-size: 15pt;
+    color:rgb(252, 243, 243);
+}
+
+a:hover 
+{
+    color:rgb(10, 10, 10);
+    font-size: 20pt;
+}
+
+
+.header
+{
+    width: 100%;
+    background-color:rgb(242, 122, 166);
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 400px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 20pt;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'REM', sans-serif;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    object-fit:cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.content
+{
+  text-align: justify;
+  font-family: 'Poppins',sans-serif;
+}
+
+table,tr,td,th
+{
+  border: 1px dotted rgb(244, 170, 217);
+  border-collapse: collapse;
+  justify-content: center;
+      align-items: center;
+      display:center;
+      margin: 0;    
+      font-family: 'Edu SA Beginner', cursive;
+      font-size: 15pt;   
+}
+
+td
+{
+  padding: 130px;
+}
+
+tr
+{
+  background-color: rgb(155, 71, 117);
+}
+
+tr:nth-child(odd)
+{
+  background-color: rgb(155, 71, 117);
+}
+
+th
+{
+  background-color: rgb(155, 71, 117);
+  color:rgb(27, 52, 98)
+}
+
+tr:hover
+{
+    background-color:rgb(242, 122, 166);
+}
+
+main {
+    padding: 100px;
+  }
+  
+  section {
+    margin-bottom: 90px;
+  }
+  
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+  }
+
+
+.shop-now-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: #e74c3c;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-container > div {
+  flex: 1;
+  margin: 10px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map-container iframe {
+  margin: 20px auto; 
+}
+
+.contact-section {
+  text-align: center;
+  max-width: 800px; 
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart img {
+  width: 80px;
+  height: 90px;
+  position: absolute;
+  top: 0px;
+  right: -15px;
+
+}
+
+.cart-count {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0px;
+  right: -15px; 
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.search img {
+  width: 280px;
+  height: 90px;
+  right: 65px;
+  
+}
+
+
+.add-to-cart-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #120609;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+.checkoutButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0f0609;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #111010;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+.product h2 {
+  margin-top: 1rem;
+}
+
+.product p {
+  margin-top: 0.5rem;
+}
+
+.product button {
+  margin-top: 1rem;
+  background-color: #a54a6d;
+  color: #160a0a;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feedback {
+  width: calc(25% - 20px);
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.feedback img {
+  max-width: 250px;
+  border-radius: 50%;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  max-width: 400px; /* Set the maximum width of the search bar */
+  margin: 20px auto; /* Center the search bar horizontally */
+  border: 1px solid #200d0d;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 5px;
+}
+
+#searchButton {
+  background-color: #d2339a;
+  border: none;
+  padding: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#searchButton img {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
